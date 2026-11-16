@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Secret environment variables (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+
+# Netlify local state
+.netlify
