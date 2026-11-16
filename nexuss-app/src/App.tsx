@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 import { NexussLogo } from './NexussLogo';
 import {
-  AssistantMode,
-  ChatMessage,
-  Conversation,
+  type AssistantMode,
+  type ChatMessage,
+  type Conversation,
   MODE_DESCRIPTIONS,
 } from './types';
 
